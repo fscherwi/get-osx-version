@@ -1,9 +1,6 @@
 os: osx
 notifications:
   email: false
-before_install:
-  - brew update
-  - brew install node
 install:
   - npm install coveralls istanbul
 before_script:
