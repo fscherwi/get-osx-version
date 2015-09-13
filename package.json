@@ -1,0 +1,19 @@
+{
+  "name": "get-osx-version",
+  "version": "1.0.0",
+  "description": "Get the OS X version",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fscherwi/get-osx-version.git"
+  },
+  "author": "fscherwi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fscherwi/get-osx-version/issues"
+  },
+  "homepage": "https://github.com/fscherwi/get-osx-version#readme"
+}
