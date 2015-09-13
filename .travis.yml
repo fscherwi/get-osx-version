@@ -3,9 +3,8 @@ notifications:
   email: false
 before_install:
   - brew update
-  - brew install nvm
+  - brew install node
 install:
-  - nvm install 4.0
   - npm install coveralls istanbul
 before_script:
     - uname -a
