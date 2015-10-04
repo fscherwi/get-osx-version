@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/fscherwi/get-osx-version.git"
   },
+  "keywords": [
+    "osx",
+    "mac",
+    "version",
+  ],
   "author": "fscherwi",
   "license": "MIT",
   "bugs": {
