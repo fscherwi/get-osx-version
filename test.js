@@ -1,1 +1,1 @@
-console.log(require('./main.js').get());
+console.log(require('./main.js').get() + "\n");
