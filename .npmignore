@@ -1,6 +1,5 @@
 .travis.yml
 test.js
-*.md
 logs
 *.log
 lib-cov
