@@ -6,5 +6,5 @@
 ```js
 var osx_version = require('get-osx-version').get();
 
-console.log('OSX version: ' + os_version);
+console.log('OSX version: ' + osx_version);
 ```
