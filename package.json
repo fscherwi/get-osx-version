@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/fscherwi/get-osx-version/issues"
   },
-  "homepage": "https://github.com/fscherwi/get-osx-version#readme"
+  "homepage": "https://github.com/fscherwi/get-osx-version#readme",
+  "bin": {
+  "get-osx-version": "./bin.js"
+}
 }
