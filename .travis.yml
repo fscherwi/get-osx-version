@@ -2,8 +2,8 @@ os: osx
 notifications:
   email: false
 install:
-  - npm install coveralls istanbul
   - npm install -g
+  - npm update coveralls istanbul
 script:
   - npm test
   - get-osx-version
@@ -11,3 +11,6 @@ after_script:
   - ./node_modules/.bin/istanbul cover test.js
   - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
 sudo: false
+cache:
+  directories:
+    - node_modules
