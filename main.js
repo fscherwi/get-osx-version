@@ -1,5 +1,5 @@
 exports.get = function get() { /* istanbul ignore next */
-  if (require('process').platform === 'darwin') {
+  if (process.platform === 'darwin') {
     var release = parseFloat(require('os').release());
     switch (parseFloat(release)) {
       case 1.3:
