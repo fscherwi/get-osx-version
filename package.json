@@ -4,7 +4,7 @@
   "description": "Get the OS X version",
   "main": "main.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node bin.js"
   },
   "repository": {
     "type": "git",

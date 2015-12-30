@@ -3,6 +3,7 @@
 
 ## Get the OS X versions from the running system!
 # Example script
+Output your current OSX version!
 
 ```js
 var osx_version = require('get-osx-version').get();
