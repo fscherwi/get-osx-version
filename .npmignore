@@ -1,4 +1,5 @@
 .travis.yml
+test.js
 logs
 *.log
 lib-cov
