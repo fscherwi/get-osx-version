@@ -2,6 +2,7 @@ os:
   - osx
   - linux
 install:
+  - npm install
   - npm install -g
   - npm install coveralls istanbul
 script:
