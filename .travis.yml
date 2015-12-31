@@ -1,8 +1,6 @@
 os:
   - osx
   - linux
-notifications:
-  email: false
 install:
   - npm install -g
   - npm install coveralls istanbul
