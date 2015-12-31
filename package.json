@@ -25,5 +25,8 @@
   "homepage": "https://github.com/fscherwi/get-osx-version#readme",
   "bin": {
     "get-osx-version": "bin.js"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.6.1"
   }
 }
