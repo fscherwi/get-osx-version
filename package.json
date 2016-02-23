@@ -28,5 +28,9 @@
   },
   "devDependencies": {
     "uglify-js": "^2.6.1"
-  }
+  },
+  "files": [
+    "bin.js",
+    "main.js"
+  ]
 }

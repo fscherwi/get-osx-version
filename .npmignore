@@ -1,9 +1,0 @@
-.travis.yml
-test.js
-logs
-*.log
-lib-cov
-coverage
-.grunt
-.gitignore
-main_1.js
