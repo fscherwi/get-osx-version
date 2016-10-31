@@ -7,9 +7,9 @@ exports.get = function get() { /* istanbul ignore next */
       case 1.4:
         return "10.1";
       default:
-        return "10." + (release - 4);
+        return "10." + Number((release - 4).toFixed(1));
     }
   } else {
-    return 'no OSX system';
+    return 'no Mac OS system';
   }
 };

@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-console.log('\nOSX version: %s\n', require('./main.js').get());
+console.log('\nMac OS version: %s\n', require('./main.js').get());
