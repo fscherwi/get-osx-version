@@ -1,6 +1,6 @@
 {
   "name": "get-osx-version",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "small program to get the current Mac OS version of the running system",
   "main": "main.js",
   "scripts": {
@@ -30,8 +30,5 @@
   "files": [
     "bin.js",
     "main.js"
-  ],
-  "os": [
-    "darwin"
   ]
 }
