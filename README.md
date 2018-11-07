@@ -15,7 +15,7 @@ npm install get-osx-version --save
 Output your current Mac OS version!
 
 ```javascript
-var MacOSVersion = require('get-osx-version').get();
+var MacOSVersion = require('get-osx-version');
 
 console.log('Mac OS version: ' + MacOSVersion);
 ```
