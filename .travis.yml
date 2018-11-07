@@ -15,3 +15,7 @@ script:
 after_script:
   - ./node_modules/.bin/istanbul cover test.js
   - cat ./coverage/lcov.info | node_modules/.bin/coveralls --verbose
+matrix:
+  include:
+    - node_js: "0.12"
+      before_install: "npm install -g npm@latest"
