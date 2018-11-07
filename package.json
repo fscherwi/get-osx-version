@@ -1,7 +1,7 @@
 {
   "name": "get-osx-version",
   "version": "2.0.0",
-  "description": "small program to get the current Mac OS version of the running system",
+  "description": "tiny program to get the current Mac OS version of the running system",
   "main": "main.js",
   "scripts": {
     "test": "node test.js"
