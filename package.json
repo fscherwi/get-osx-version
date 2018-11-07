@@ -1,6 +1,6 @@
 {
   "name": "get-osx-version",
-  "version": "1.6.0",
+  "version": "2.0.0",
   "description": "small program to get the current Mac OS version of the running system",
   "main": "main.js",
   "scripts": {
@@ -26,7 +26,10 @@
   "bin": {
     "get-osx-version": "bin.js"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "istanbul": "^0.4.5"
+  },
   "files": [
     "bin.js",
     "main.js"
