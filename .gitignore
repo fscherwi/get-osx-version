@@ -4,3 +4,4 @@ lib-cov
 coverage
 .grunt
 node_modules
+.nyc_output

@@ -4,7 +4,7 @@
   "description": "tiny program to get the current Mac OS version of the running system",
   "main": "main.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "nyc node test.js"
   },
   "repository": {
     "type": "git",
@@ -28,10 +28,15 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
-    "istanbul": "^0.4.5"
+    "nyc": "^13.1.0"
   },
   "files": [
     "bin.js",
     "main.js"
-  ]
+  ],
+  "nyc": {
+    "reporter": [
+      "lcov"
+    ]
+  }
 }
