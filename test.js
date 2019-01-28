@@ -6,4 +6,5 @@ if (process.platform !== 'darwin') {
 		process.exit(1);
 	}
 }
+
 console.log('\nMac OS version: %s\n', MacOSVersion);

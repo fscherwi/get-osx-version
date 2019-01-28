@@ -4,7 +4,8 @@
   "description": "tiny program to get the current Mac OS version of the running system",
   "main": "main.js",
   "scripts": {
-    "test": "nyc node test.js"
+    "test": "nyc node test.js",
+    "lint": "xo"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,8 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
-    "nyc": "^13.2.0"
+    "nyc": "^13.2.0",
+    "xo": "^0.24.0"
   },
   "files": [
     "bin.js",
@@ -39,5 +41,11 @@
       "lcov",
       "text"
     ]
+  },
+  "xo": {
+    "rules": {
+      "unicorn/no-process-exit": false,
+      "max-params": 0
+    }
   }
 }
