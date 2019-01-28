@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
-    "nyc": "^13.1.0"
+    "nyc": "^13.2.0"
   },
   "files": [
     "bin.js",
@@ -36,7 +36,8 @@
   ],
   "nyc": {
     "reporter": [
-      "lcov"
+      "lcov",
+      "text"
     ]
   }
 }
