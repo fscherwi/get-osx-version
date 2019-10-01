@@ -7,7 +7,7 @@ function get() { /* istanbul ignore next */
 			case 1.4:
 				return '10.1';
 			default:
-				return parseFloat('10.' + (Number((release - 4).toFixed(1))));
+				return String(parseFloat('10.' + (Number((release - 4).toFixed(1)))));
 		}
 	}
 }
