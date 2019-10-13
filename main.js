@@ -1,6 +1,12 @@
-function get() { /* istanbul ignore next */
+/**
+ * Get Mac OS version of current system
+ *
+ * @returns {string} Mac OS version
+ */
+function get() {
 	if (process.platform === 'darwin') {
 		const release = parseFloat(require('os').release());
+		/* istanbul ignore next */
 		switch (release) {
 			case 1.3:
 				return '10.0';
