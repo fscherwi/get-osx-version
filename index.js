@@ -1,9 +1,9 @@
 /**
  * Get Mac OS version of current system
  *
- * @returns {string} Mac OS version
+ * @returns {string| undefined} Mac OS version or undefined is other platform
  */
-function get() {
+module.exports.macOSVersion = () => {
 	if (process.platform === 'darwin') {
 		const release = parseFloat(require('os').release());
 		/* istanbul ignore next */
@@ -16,6 +16,4 @@ function get() {
 				return String(parseFloat('10.' + (Number((release - 4).toFixed(1)))));
 		}
 	}
-}
-
-module.exports = get();
+};

@@ -2,9 +2,9 @@
   "name": "get-osx-version",
   "version": "2.0.0",
   "description": "tiny program to get the Mac OS version of the current system",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "test": "nyc node main.test.js",
+    "test": "nyc node index.test.js",
     "lint": "xo"
   },
   "repository": {
@@ -35,7 +35,7 @@
   },
   "files": [
     "bin.js",
-    "main.js"
+    "index.js"
   ],
   "nyc": {
     "reporter": [
