@@ -19,7 +19,7 @@ module.exports.macOSVersion = () => {
 			case 5.5:
 				return '10.1';
 			default:
-				return String(parseFloat('10.' + (Number((release - 4).toFixed(1)))));
+				return '10.' + (release - 4).toFixed(1);
 		}
 	}
 };
