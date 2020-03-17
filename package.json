@@ -34,6 +34,8 @@
     "xo": "^0.28.0"
   },
   "files": [
+    "README.md",
+    "LICENSE",
     "bin.js",
     "index.js"
   ],
@@ -44,8 +46,7 @@
   },
   "xo": {
     "rules": {
-      "unicorn/no-process-exit": 0,
-      "max-params": 0
+      "unicorn/no-process-exit": 0
     },
     "plugins": [
       "jsdoc"
