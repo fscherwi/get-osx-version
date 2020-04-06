@@ -4,7 +4,7 @@
   "description": "tiny program to get the macOS version of the current system",
   "main": "index.js",
   "scripts": {
-    "test": "nyc node index.test.js",
+    "test": "npx tsd && nyc node index.test.js",
     "lint": "xo"
   },
   "repository": {
@@ -16,7 +16,7 @@
     "mac",
     "version",
     "mac os",
-    "macos"
+    "macOS"
   ],
   "author": "fscherwi",
   "license": "MIT",
@@ -31,26 +31,21 @@
     "coveralls": "^3.0.11",
     "eslint-plugin-jsdoc": "^22.1.0",
     "nyc": "^15.0.1",
+    "tsd": "^0.11.0",
     "xo": "^0.28.3"
   },
   "files": [
     "README.md",
     "LICENSE",
     "bin.js",
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
-  "nyc": {
-    "reporter": [
-      "lcov"
-    ]
-  },
+  "types": "index.d.ts",
   "xo": {
     "rules": {
       "unicorn/no-process-exit": 0
     },
-    "plugins": [
-      "jsdoc"
-    ],
     "extends": [
       "plugin:jsdoc/recommended"
     ]
