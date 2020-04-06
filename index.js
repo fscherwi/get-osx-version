@@ -1,8 +1,8 @@
 const os = require('os');
 /**
- * Get Mac OS version of current system
+ * Get macOS version of current system
  *
- * @returns {string| undefined} Mac OS version or undefined if other platform
+ * @returns {string| undefined} macOS version or undefined if other platform
  */
 module.exports.macOSVersion = () => {
 	if (process.platform === 'darwin') {

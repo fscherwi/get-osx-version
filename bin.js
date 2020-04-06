@@ -2,4 +2,4 @@
 
 const {macOSVersion} = require('.');
 
-console.log('\nMac OS version: %s\n', macOSVersion());
+console.log('\nmacOS version: %s\n', macOSVersion());

@@ -1,7 +1,7 @@
 {
   "name": "get-osx-version",
   "version": "3.0.0",
-  "description": "tiny program to get the Mac OS version of the current system",
+  "description": "tiny program to get the macOS version of the current system",
   "main": "index.js",
   "scripts": {
     "test": "nyc node index.test.js",
@@ -30,8 +30,8 @@
   "devDependencies": {
     "coveralls": "^3.0.11",
     "eslint-plugin-jsdoc": "^22.1.0",
-    "nyc": "^15.0.0",
-    "xo": "^0.28.2"
+    "nyc": "^15.0.1",
+    "xo": "^0.28.3"
   },
   "files": [
     "README.md",

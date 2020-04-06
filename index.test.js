@@ -7,5 +7,5 @@ if (process.platform !== 'darwin') {
 	console.log('ERROR');
 	process.exit(1);
 } else {
-	console.log('\nMac OS version: %s\n', macOSVersion());
+	console.log('\nmacOS version: %s\n', macOSVersion());
 }
