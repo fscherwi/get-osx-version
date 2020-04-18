@@ -1,3 +1,3 @@
-declare const macosVersion: () => string | undefined;
+declare function macosVersion(darwinRelease?: number): string | undefined;
 
 export = macosVersion;
