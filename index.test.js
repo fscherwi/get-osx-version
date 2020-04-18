@@ -17,5 +17,5 @@ test('10.1', t => {
 
 test('current version', t => {
 	const release = Number.parseFloat(macOSVersion());
-	t.true(release >= 10.15);
+	t.true(release >= 10.13);
 });
