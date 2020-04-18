@@ -10,7 +10,7 @@ const os = require('os');
  *
  * console.log('macOS version: ' + macOSVersion());
  */
-module.exports.macOSVersion = (darwinRelease) => {
+module.exports.macOSVersion = darwinRelease => {
 	/* istanbul ignore next */
 	if (typeof darwinRelease === 'undefined' && process.platform === 'darwin') {
 		darwinRelease = Number.parseFloat(os.release());
@@ -31,4 +31,4 @@ module.exports.macOSVersion = (darwinRelease) => {
 		default:
 			return '10.' + (Number.parseFloat(darwinRelease) - 4).toFixed(1);
 	}
-}
+};
