@@ -24,9 +24,6 @@
     "url": "https://github.com/fscherwi/get-osx-version/issues"
   },
   "homepage": "https://github.com/fscherwi/get-osx-version#readme",
-  "bin": {
-    "get-osx-version": "bin.js"
-  },
   "devDependencies": {
     "ava": "^3.7.0",
     "coveralls": "^3.0.11",
@@ -40,7 +37,6 @@
     "index.js",
     "index.d.ts"
   ],
-  "types": "index.d.ts",
   "nyc": {
     "reporter": [
       "lcov"
