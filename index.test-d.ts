@@ -1,4 +1,4 @@
 import {expectType} from 'tsd';
-import macOSVersion = require('.');
+import macOSVersion from './index.js';
 
 expectType<string | undefined>(macOSVersion());
