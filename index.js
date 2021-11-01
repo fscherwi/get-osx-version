@@ -1,4 +1,5 @@
 const os = require('os');
+const process = require('process');
 
 /**
  * Get macOS version of current system
