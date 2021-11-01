@@ -11,7 +11,6 @@ const os = require('os');
  * console.log('macOS version: ' + macOSVersion());
  */
 module.exports.macOSVersion = darwinRelease => {
-	/* istanbul ignore next */
 	if (typeof darwinRelease === 'undefined' && process.platform === 'darwin') {
 		darwinRelease = Number.parseFloat(os.release());
 	} else if (typeof darwinRelease === 'undefined') {

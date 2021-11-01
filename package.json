@@ -4,7 +4,7 @@
   "description": "tiny program to get the macOS version of the current system",
   "main": "index.js",
   "scripts": {
-    "test": "tsd && nyc ava",
+    "test": "ava && tsd",
     "lint": "xo"
   },
   "repository": {
@@ -26,9 +26,7 @@
   "homepage": "https://github.com/fscherwi/get-osx-version#readme",
   "devDependencies": {
     "ava": "^3.15.0",
-    "coveralls": "^3.1.0",
     "eslint-plugin-jsdoc": "^34.0.0",
-    "nyc": "^15.1.0",
     "tsd": "^0.15.1",
     "xo": "^0.40.0"
   },
@@ -37,11 +35,6 @@
     "index.js",
     "index.d.ts"
   ],
-  "nyc": {
-    "reporter": [
-      "lcov"
-    ]
-  },
   "xo": {
     "rules": {
       "unicorn/no-process-exit": 0,
