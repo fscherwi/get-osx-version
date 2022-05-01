@@ -27,7 +27,7 @@
   "devDependencies": {
     "ava": "^4.2.0",
     "eslint-plugin-jsdoc": "^38.1.4",
-    "tsd": "^0.19.1",
+    "tsd": "^0.20.0",
     "xo": "^0.48.0"
   },
   "files": [
