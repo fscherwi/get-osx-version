@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/fscherwi/get-osx-version#readme",
   "devDependencies": {
-    "ava": "^5.2.0",
+    "ava": "^5.3.0",
     "eslint-plugin-jsdoc": "^43.1.1",
     "tsd": "^0.28.1",
     "xo": "^0.52.4"
